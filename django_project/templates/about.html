@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% load static %}
+
+{% block content %}
+<h1 class="text-center">About Us</h1>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{% static 'images/hos1.jpg' %}" class="card-img-top" alt="Hospital Image">
+        </div>
+        <div class="col-md-6">
+            <p>Welcome to Welfare Hospital, where your well-being is our utmost priority. We are delighted to introduce our latest advancements in equipment and services, designed to provide you with exceptional healthcare experiences.</p>
+            <p>At Welfare Hospital, we have invested in state-of-the-art medical technology to ensure accurate diagnoses and effective treatments. Our advanced diagnostic imaging equipment, including cutting-edge MRI, CT scans, and ultrasound machines, enable our expert medical team to obtain detailed and precise images, aiding in the early detection and accurate assessment of various medical conditions.</p>
+            <p>To enhance the quality of care, we have introduced robotic surgical systems that assist our skilled surgeons in performing minimally invasive procedures with unparalleled precision and control. These advanced systems ensure smaller incisions, reduced pain, faster recovery, and improved surgical outcomes, enabling our patients to return to their daily lives sooner.</p>     
+        </div>
+    </div>
+</div>
+
+{% endblock %}
